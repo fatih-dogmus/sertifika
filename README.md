@@ -15,16 +15,16 @@ C:\xampp\apache\conf\extra
 
 \#\# localhost <br>
  <VirtualHost *:80> <br>
-     DocumentRoot "C:/xampp/htdocs" <br>
-     ServerName localhost <br>
-     ServerAlias *localhost <br>
+\tDocumentRoot "C:/xampp/htdocs" <br>
+\tServerName localhost <br>
+\tServerAlias *localhost <br>
  \</VirtualHost> <br>
  
  <VirtualHost *:443> <br>
-     DocumentRoot "C:/xampp/htdocs" <br>
-     ServerName localhost <br>
-     ServerAlias *.localhost <br>
-     SSLEngine on <br>
-     SSLCertificateFile "crt/localhost/server.crt" <br>
-     SSLCertificateKeyFile "crt/localhost/server.key" <br>
+\tDocumentRoot "C:/xampp/htdocs" <br>
+\tServerName localhost <br>
+\tServerAlias *.localhost <br>
+\tSSLEngine on <br>
+\tSSLCertificateFile "crt/localhost/server.crt" <br>
+\tSSLCertificateKeyFile "crt/localhost/server.key" <br>
  \</VirtualHost>
