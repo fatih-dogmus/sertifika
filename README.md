@@ -18,7 +18,7 @@ C:\xampp\apache\conf\extra
      DocumentRoot "C:/xampp/htdocs" <br>
      ServerName localhost <br>
      ServerAlias *localhost <br>
- </VirtualHost> <br>
+ \</VirtualHost> <br>
  <VirtualHost *:443> <br>
      DocumentRoot "C:/xampp/htdocs" <br>
      ServerName localhost <br>
