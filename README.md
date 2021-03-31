@@ -26,4 +26,4 @@ C:\xampp\apache\conf\extra
      SSLEngine on <br>
      SSLCertificateFile "crt/localhost/server.crt" <br>
      SSLCertificateKeyFile "crt/localhost/server.key" <br>
- </VirtualHost>
+ \</VirtualHost>
