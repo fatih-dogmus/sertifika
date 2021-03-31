@@ -10,17 +10,17 @@ my.ini
 3306 -> 8809
 
 # XAMPP
-\#\# localhost
- <VirtualHost *:80>
-     DocumentRoot "C:/xampp/htdocs"
-     ServerName localhost
-     ServerAlias *localhost
- </VirtualHost>
- <VirtualHost *:443>
-     DocumentRoot "C:/xampp/htdocs"
-     ServerName localhost
-     ServerAlias *.localhost
-     SSLEngine on
-     SSLCertificateFile "crt/localhost/server.crt"
-     SSLCertificateKeyFile "crt/localhost/server.key"
+\#\# localhost <br>
+ <VirtualHost *:80> <br>
+     DocumentRoot "C:/xampp/htdocs" <br>
+     ServerName localhost <br>
+     ServerAlias *localhost <br>
+ </VirtualHost> <br>
+ <VirtualHost *:443> <br>
+     DocumentRoot "C:/xampp/htdocs" <br>
+     ServerName localhost <br>
+     ServerAlias *.localhost <br>
+     SSLEngine on <br>
+     SSLCertificateFile "crt/localhost/server.crt" <br>
+     SSLCertificateKeyFile "crt/localhost/server.key" <br>
  </VirtualHost>
