@@ -10,6 +10,9 @@ my.ini
 3306 -> 8809
 
 # XAMPP
+
+C:\xampp\apache\conf\extra
+
 \#\# localhost <br>
  <VirtualHost *:80> <br>
      DocumentRoot "C:/xampp/htdocs" <br>
