@@ -1,6 +1,6 @@
 # SSL
 cert.conf -> DNS.1 = localhost <br>
-diğer dosyayla birlikte apache/crt içine atılacak
+diğer dosyayla birlikte C:\xampp\apache\crt içine atılacak
 
 C:\Windows\system32\drivers\etc\hosts <br>
 127.0.0.1 localhost
